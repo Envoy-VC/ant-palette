@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+	font-family: 'Ginto Bold';
+	src: url('../../public/fonts/ginto-bold.ttf');
+}
+
+@font-face {
+	font-family: 'Ginto Medium';
+	src: url('../../public/fonts/ginto-medium.ttf');
+}
+
 html,
 body,
 :root {

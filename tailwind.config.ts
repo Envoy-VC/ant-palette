@@ -5,6 +5,10 @@ export default {
 	theme: {
 		extend: {
 			colors: {},
+			fontFamily: {
+				gintoBold: ['Ginto Bold', 'sans-serif'],
+				gintoMedium: ['Ginto Medium', 'sans-serif'],
+			},
 		},
 	},
 	plugins: [],

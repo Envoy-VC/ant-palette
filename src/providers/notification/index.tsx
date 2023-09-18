@@ -11,7 +11,7 @@ const NotificationProvider = ({ children }: Props) => {
 	return (
 		<>
 			{children}
-			<Toaster position='bottom-left' />
+			<Toaster position='bottom-center' />
 		</>
 	);
 };
