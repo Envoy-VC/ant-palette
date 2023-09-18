@@ -9,6 +9,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@ant-design/colors": "^7.0.0",
     "@ant-design/cssinjs": "^1.17.0",
     "@t3-oss/env-nextjs": "^0.6.0",
     "antd": "^5.9.1",
@@ -16,7 +17,6 @@
     "ethers": "^5.7.2",
     "next": "^13.4.19",
     "next-seo": "^6.1.0",
-    "next-themes": "^0.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hot-toast": "^2.4.1",
