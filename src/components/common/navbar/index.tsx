@@ -16,7 +16,9 @@ const Navbar = () => {
 						alt='Logo'
 						className='w-8 sm:w-9'
 					/>
-					<div className='text-xl font-semibold sm:text-2xl'>Ant Palette</div>
+					<div className='mb-[2px] font-gintoMedium text-xl font-semibold text-[#49584D] sm:text-2xl'>
+						Ant Palette
+					</div>
 				</div>
 				<div className='flex flex-row items-center gap-2'>generate</div>
 			</div>
