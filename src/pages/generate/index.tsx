@@ -41,7 +41,7 @@ export const usePaletteConfigStore = create<PaletteConfigState>()((set) => ({
 const Generate: NextPageWithLayout = () => {
 	return (
 		<div className='h-full p-4'>
-			<div className='flex flex-col gap-8 rounded-lg border-2 px-3 py-2 lg:flex-row'>
+			<div className='flex flex-col gap-8 rounded-lg px-3 py-2 lg:flex-row'>
 				<div className='h-full w-full basis-1/4'>
 					<PaletteConfig />
 				</div>
