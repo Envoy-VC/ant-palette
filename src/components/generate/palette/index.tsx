@@ -35,7 +35,11 @@ const Palette = () => {
 										'lg:[--height-on-hover:7rem]',
 										'[--height-on-hover:6rem]',
 										'lg:[--width-on-hover:100%]',
-										'[--width-on-hover:105%]'
+										'[--width-on-hover:105%]',
+										'[--border-radius-br:0.5rem]',
+										'lg:[--border-radius-br:0rem]',
+										'[--border-radius-tl:0rem]',
+										'lg:[--border-radius-tl:0.5rem]'
 									)}
 									style={{ color: gray.at(gray.length - index + 1), background: color }}
 									onClick={() => copyToClipboard(color)}
@@ -43,7 +47,8 @@ const Palette = () => {
 										height: 'var(--height-on-hover)',
 										width: 'var(--width-on-hover)',
 										borderTopRightRadius: '0.5rem',
-										borderTopLeftRadius: '0.5rem',
+										borderTopLeftRadius: 'var(--border-radius-tl)',
+										borderBottomRightRadius: 'var(--border-radius-br)',
 										justifyContent: 'space-between',
 									}}
 								>
