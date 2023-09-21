@@ -3,7 +3,7 @@ import { Layout } from '~/components';
 import type { NextPageWithLayout } from '../_app';
 
 import { create } from 'zustand';
-import { PaletteConfig, Palette } from '~/components/generate';
+import { PaletteConfig, Palette, ConfigCodeBlock } from '~/components/generate';
 
 interface PaletteConfigState {
 	theme: 'default' | 'dark';
@@ -40,7 +40,7 @@ export const usePaletteConfigStore = create<PaletteConfigState>()((set) => ({
 
 const Generate: NextPageWithLayout = () => {
 	return (
-		<div className='h-full p-4'>
+		<div className='flex h-full flex-col gap-4 p-4'>
 			<div className='flex flex-col gap-8 rounded-lg px-3 py-2 lg:flex-row'>
 				<div className='h-full w-full basis-1/4'>
 					<PaletteConfig />
@@ -49,6 +49,7 @@ const Generate: NextPageWithLayout = () => {
 					<Palette />
 				</div>
 			</div>
+			<ConfigCodeBlock />
 		</div>
 	);
 };
